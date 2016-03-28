@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87A441431CA8F0BC00322EFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A441421CA8F0BC00322EFC /* main.m */; };
+		87A441461CA8F0BC00322EFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A441451CA8F0BC00322EFC /* AppDelegate.m */; };
+		87A441491CA8F0BC00322EFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A441481CA8F0BC00322EFC /* ViewController.m */; };
+		87A4414C1CA8F0BC00322EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A4414A1CA8F0BC00322EFC /* Main.storyboard */; };
+		87A4414E1CA8F0BC00322EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A4414D1CA8F0BC00322EFC /* Assets.xcassets */; };
+		87A441511CA8F0BC00322EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A4414F1CA8F0BC00322EFC /* LaunchScreen.storyboard */; };
+		87A4415C1CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A4415B1CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothTests.m */; };
+		87A441671CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A441661CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87A441581CA8F0BD00322EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A441361CA8F0BC00322EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A4413D1CA8F0BC00322EFC;
+			remoteInfo = "Zombie Photo Maker Booth";
+		};
+		87A441631CA8F0BD00322EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A441361CA8F0BC00322EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A4413D1CA8F0BC00322EFC;
+			remoteInfo = "Zombie Photo Maker Booth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87A4413E1CA8F0BC00322EFC /* Zombie Photo Maker Booth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie Photo Maker Booth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A441421CA8F0BC00322EFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87A441441CA8F0BC00322EFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87A441451CA8F0BC00322EFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87A441471CA8F0BC00322EFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87A441481CA8F0BC00322EFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87A4414B1CA8F0BC00322EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87A4414D1CA8F0BC00322EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87A441501CA8F0BC00322EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A441521CA8F0BC00322EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A441571CA8F0BD00322EFC /* Zombie Photo Maker BoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zombie Photo Maker BoothTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A4415B1CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zombie_Photo_Maker_BoothTests.m; sourceTree = "<group>"; };
+		87A4415D1CA8F0BD00322EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A441621CA8F0BD00322EFC /* Zombie Photo Maker BoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zombie Photo Maker BoothUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A441661CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zombie_Photo_Maker_BoothUITests.m; sourceTree = "<group>"; };
+		87A441681CA8F0BD00322EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A4413B1CA8F0BC00322EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A441541CA8F0BD00322EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A4415F1CA8F0BD00322EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A441351CA8F0BC00322EFC = {
+			isa = PBXGroup;
+			children = (
+				87A441401CA8F0BC00322EFC /* Zombie Photo Maker Booth */,
+				87A4415A1CA8F0BD00322EFC /* Zombie Photo Maker BoothTests */,
+				87A441651CA8F0BD00322EFC /* Zombie Photo Maker BoothUITests */,
+				87A4413F1CA8F0BC00322EFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87A4413F1CA8F0BC00322EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A4413E1CA8F0BC00322EFC /* Zombie Photo Maker Booth.app */,
+				87A441571CA8F0BD00322EFC /* Zombie Photo Maker BoothTests.xctest */,
+				87A441621CA8F0BD00322EFC /* Zombie Photo Maker BoothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A441401CA8F0BC00322EFC /* Zombie Photo Maker Booth */ = {
+			isa = PBXGroup;
+			children = (
+				87A441441CA8F0BC00322EFC /* AppDelegate.h */,
+				87A441451CA8F0BC00322EFC /* AppDelegate.m */,
+				87A441471CA8F0BC00322EFC /* ViewController.h */,
+				87A441481CA8F0BC00322EFC /* ViewController.m */,
+				87A4414A1CA8F0BC00322EFC /* Main.storyboard */,
+				87A4414D1CA8F0BC00322EFC /* Assets.xcassets */,
+				87A4414F1CA8F0BC00322EFC /* LaunchScreen.storyboard */,
+				87A441521CA8F0BC00322EFC /* Info.plist */,
+				87A441411CA8F0BC00322EFC /* Supporting Files */,
+			);
+			path = "Zombie Photo Maker Booth";
+			sourceTree = "<group>";
+		};
+		87A441411CA8F0BC00322EFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A441421CA8F0BC00322EFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A4415A1CA8F0BD00322EFC /* Zombie Photo Maker BoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				87A4415B1CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothTests.m */,
+				87A4415D1CA8F0BD00322EFC /* Info.plist */,
+			);
+			path = "Zombie Photo Maker BoothTests";
+			sourceTree = "<group>";
+		};
+		87A441651CA8F0BD00322EFC /* Zombie Photo Maker BoothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87A441661CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothUITests.m */,
+				87A441681CA8F0BD00322EFC /* Info.plist */,
+			);
+			path = "Zombie Photo Maker BoothUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A4413D1CA8F0BC00322EFC /* Zombie Photo Maker Booth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A4416B1CA8F0BD00322EFC /* Build configuration list for PBXNativeTarget "Zombie Photo Maker Booth" */;
+			buildPhases = (
+				87A4413A1CA8F0BC00322EFC /* Sources */,
+				87A4413B1CA8F0BC00322EFC /* Frameworks */,
+				87A4413C1CA8F0BC00322EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zombie Photo Maker Booth";
+			productName = "Zombie Photo Maker Booth";
+			productReference = 87A4413E1CA8F0BC00322EFC /* Zombie Photo Maker Booth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87A441561CA8F0BD00322EFC /* Zombie Photo Maker BoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A4416E1CA8F0BD00322EFC /* Build configuration list for PBXNativeTarget "Zombie Photo Maker BoothTests" */;
+			buildPhases = (
+				87A441531CA8F0BD00322EFC /* Sources */,
+				87A441541CA8F0BD00322EFC /* Frameworks */,
+				87A441551CA8F0BD00322EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A441591CA8F0BD00322EFC /* PBXTargetDependency */,
+			);
+			name = "Zombie Photo Maker BoothTests";
+			productName = "Zombie Photo Maker BoothTests";
+			productReference = 87A441571CA8F0BD00322EFC /* Zombie Photo Maker BoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87A441611CA8F0BD00322EFC /* Zombie Photo Maker BoothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A441711CA8F0BD00322EFC /* Build configuration list for PBXNativeTarget "Zombie Photo Maker BoothUITests" */;
+			buildPhases = (
+				87A4415E1CA8F0BD00322EFC /* Sources */,
+				87A4415F1CA8F0BD00322EFC /* Frameworks */,
+				87A441601CA8F0BD00322EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A441641CA8F0BD00322EFC /* PBXTargetDependency */,
+			);
+			name = "Zombie Photo Maker BoothUITests";
+			productName = "Zombie Photo Maker BoothUITests";
+			productReference = 87A441621CA8F0BD00322EFC /* Zombie Photo Maker BoothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A441361CA8F0BC00322EFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Muhammad Luqman";
+				TargetAttributes = {
+					87A4413D1CA8F0BC00322EFC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					87A441561CA8F0BD00322EFC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 87A4413D1CA8F0BC00322EFC;
+					};
+					87A441611CA8F0BD00322EFC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 87A4413D1CA8F0BC00322EFC;
+					};
+				};
+			};
+			buildConfigurationList = 87A441391CA8F0BC00322EFC /* Build configuration list for PBXProject "Zombie Photo Maker Booth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A441351CA8F0BC00322EFC;
+			productRefGroup = 87A4413F1CA8F0BC00322EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A4413D1CA8F0BC00322EFC /* Zombie Photo Maker Booth */,
+				87A441561CA8F0BD00322EFC /* Zombie Photo Maker BoothTests */,
+				87A441611CA8F0BD00322EFC /* Zombie Photo Maker BoothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A4413C1CA8F0BC00322EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A441511CA8F0BC00322EFC /* LaunchScreen.storyboard in Resources */,
+				87A4414E1CA8F0BC00322EFC /* Assets.xcassets in Resources */,
+				87A4414C1CA8F0BC00322EFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A441551CA8F0BD00322EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A441601CA8F0BD00322EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A4413A1CA8F0BC00322EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A441491CA8F0BC00322EFC /* ViewController.m in Sources */,
+				87A441461CA8F0BC00322EFC /* AppDelegate.m in Sources */,
+				87A441431CA8F0BC00322EFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A441531CA8F0BD00322EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A4415C1CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A4415E1CA8F0BD00322EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A441671CA8F0BD00322EFC /* Zombie_Photo_Maker_BoothUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A441591CA8F0BD00322EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A4413D1CA8F0BC00322EFC /* Zombie Photo Maker Booth */;
+			targetProxy = 87A441581CA8F0BD00322EFC /* PBXContainerItemProxy */;
+		};
+		87A441641CA8F0BD00322EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A4413D1CA8F0BC00322EFC /* Zombie Photo Maker Booth */;
+			targetProxy = 87A441631CA8F0BD00322EFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87A4414A1CA8F0BC00322EFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A4414B1CA8F0BC00322EFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87A4414F1CA8F0BC00322EFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A441501CA8F0BC00322EFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A441691CA8F0BD00322EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87A4416A1CA8F0BD00322EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A4416C1CA8F0BD00322EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zombie Photo Maker Booth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Zombie-Photo-Maker-Booth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87A4416D1CA8F0BD00322EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zombie Photo Maker Booth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Zombie-Photo-Maker-Booth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87A4416F1CA8F0BD00322EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zombie Photo Maker BoothTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Zombie-Photo-Maker-BoothTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zombie Photo Maker Booth.app/Zombie Photo Maker Booth";
+			};
+			name = Debug;
+		};
+		87A441701CA8F0BD00322EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zombie Photo Maker BoothTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Zombie-Photo-Maker-BoothTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zombie Photo Maker Booth.app/Zombie Photo Maker Booth";
+			};
+			name = Release;
+		};
+		87A441721CA8F0BD00322EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zombie Photo Maker BoothUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Zombie-Photo-Maker-BoothUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zombie Photo Maker Booth";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		87A441731CA8F0BD00322EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zombie Photo Maker BoothUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Zombie-Photo-Maker-BoothUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zombie Photo Maker Booth";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A441391CA8F0BC00322EFC /* Build configuration list for PBXProject "Zombie Photo Maker Booth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A441691CA8F0BD00322EFC /* Debug */,
+				87A4416A1CA8F0BD00322EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A4416B1CA8F0BD00322EFC /* Build configuration list for PBXNativeTarget "Zombie Photo Maker Booth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A4416C1CA8F0BD00322EFC /* Debug */,
+				87A4416D1CA8F0BD00322EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87A4416E1CA8F0BD00322EFC /* Build configuration list for PBXNativeTarget "Zombie Photo Maker BoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A4416F1CA8F0BD00322EFC /* Debug */,
+				87A441701CA8F0BD00322EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87A441711CA8F0BD00322EFC /* Build configuration list for PBXNativeTarget "Zombie Photo Maker BoothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A441721CA8F0BD00322EFC /* Debug */,
+				87A441731CA8F0BD00322EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A441361CA8F0BC00322EFC /* Project object */;
+}
